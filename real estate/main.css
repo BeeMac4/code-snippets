@@ -1,0 +1,221 @@
+.{
+	margin:0;
+	border:0;
+	padding:0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #555;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	font-size:180%;
+	line-height: 120%;
+	padding:5% 0;
+}
+h2{
+	text-decoration: underline;
+	line-height: 280%;
+	padding-left: 2%;
+}
+h3{
+	line-height:110%;
+	padding:5% 0;
+}
+p{
+	padding: 1%;
+}
+img{
+	text-align: center;
+	max-width: 100%
+	height: auto;
+	width: auto;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+header{
+	background-color: #405580;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+#logo{
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height:60px;
+	background: url("images\logo.jpg")no-repeat center;
+}
+nav{
+	float: right;
+	padding: 35px 20px 20px 0;
+}
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url()
+}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.current{
+	color: #fff;
+	text-decoration: underline;
+}
+#doc{
+	margin: 40px 0;
+}
+#content{
+	margin: 0 auto;
+	max-width: auto;
+	margin-top: 110px;
+}
+.content{
+	width: 46%;
+	float: left;
+	margin:10% 2%;
+	border-top: 20%;
+	}
+.details{
+	;
+}
+	/*About Us Styling*/
+.blueberry{
+	max-width: auto;
+	margin-top: auto;
+}
+section{
+	width: 29%;
+	float: left;
+	margin:2% 2%;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+article{
+	float: left;
+	margin: 50 auto;
+	width: 50%;
+	
+}
+#directions{
+	float: center;
+	margin: auto;
+	width: auto;
+	padding: 20%;
+}
+.mapwrapper {
+	padding-top:50px;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*make map appear in the middle*/
+aside{
+	float: right;
+	width: 70%
+	height: auto;
+	padding: 2%;
+}
+footer{
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+}
+footer p, footer h3{
+	color: #fff;
+}
+footer p a {
+		color: #fff;
+		text-decoration: none;
+	}
+ul.social li{
+		display: inline;
+}
+ul.social li img{
+		height: 50px;
+}
+footer.second {
+	border-top:  1px solid #404e50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    width:127px;
+    height:38px;
+    background:url(images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+/*---CONTACT FORM----*/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
